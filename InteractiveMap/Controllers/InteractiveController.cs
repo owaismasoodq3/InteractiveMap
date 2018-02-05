@@ -8,7 +8,7 @@ using InteractiveMap.Models;
 
 namespace InteractiveMap.Controllers
 {
-
+ 
     public class InteractiveController : Controller
     {
         // GET: Interactive
