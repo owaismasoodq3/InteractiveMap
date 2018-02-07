@@ -16,7 +16,7 @@ namespace InteractiveMap.Controllers
         //Use As 
         public ActionResult StationInformation(string cityName)
         {
-            //this is added and removed as spaces
+            //this is added and removed as spaces and buttons
             StationInformation stationInfo = GetStationInformation(cityName);
             JsonResult result = new JsonResult();
             result = Json(stationInfo, JsonRequestBehavior.AllowGet);
